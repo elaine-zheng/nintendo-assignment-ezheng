@@ -1,0 +1,35 @@
+.search {
+  margin-left: 6%;
+  width: 50%;
+  padding-top: 1em;
+  height: 5%;
+  background-color: #f7f7f7;
+}
+
+.search-button {
+  margin-left: 1em;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0.75em;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #eaeaea;
+
+}
+
+.search-input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: solid #565656;
+  font-size: large;
+  background-color: #f7f7f7;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.searchIcon {
+  height: 15px;
+  display: inline-block;
+}

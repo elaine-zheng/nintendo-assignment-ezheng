@@ -1,0 +1,26 @@
+.editor {
+    padding-right: 0.5em;
+    border-right: 2px solid #d8d8d8;
+    animation: blinking 1s infinite;
+    cursor: pointer;
+}
+
+.editor:hover {
+    cursor: pointer;
+}
+
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: #d8d8d8}
+    100% {border-right-color: transparent}
+  }
+    
+.editText {
+      display: inline-block;
+      color: #484848
+}
+
+.edited {
+  border: none;
+  animation: none;
+}

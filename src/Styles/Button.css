@@ -1,0 +1,32 @@
+.button-common {
+    font-weight: bold;
+    width: 35%;
+    padding: 0.5em 3em 0.5em 3em;
+    margin: 2% 3% 0 3%;
+    border-radius: 8px;
+}
+
+.button-common:hover {
+    cursor: pointer;
+}
+
+ .dark {
+    background-color: #2e3a86;
+    color: white;
+  }
+
+  .dark:hover {
+    background-color: #242E6B;
+  }
+  
+
+  .light {
+    background-color: white;
+    border: 0.25em solid #2e3a86;
+    color: #2e3a86;
+  }
+
+  .light:hover {
+    background-color: #F4F4F4;
+  }
+  
